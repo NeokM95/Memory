@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Koen's Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="GameManager.js"></script>
+</head>
+<body>
+
+<header>Koen's Memory Game</header>
+
+<div class="game-field">
+
+    <div class="tile-field">
+        <div class="memory-tile" id="tile1" onclick="gameManager.turnTile('tile1')">
+            <span class="picture-tile" id="picture1"></span>
+        </div>
+        <div class="memory-tile" id="tile2" onclick="gameManager.turnTile('picture2')">
+            <span class="picture-tile" id="picture2"></span>
+        </div>
+        <div class="memory-tile" id="tile3" onclick="gameManager.turnTile('picture3')">
+            <span class="picture-tile" id="picture3"></span>
+        </div>
+        <div class="memory-tile" id="tile4" onclick="gameManager.turnTile('picture4')">
+            <span class="picture-tile" id="picture4"></span>
+        </div>
+        <div class="memory-tile" id="tile5" onclick="gameManager.turnTile('picture5')">
+            <span class="picture-tile" id="picture5"></span>
+        </div>
+        <div class="memory-tile" id="tile6" onclick="gameManager.turnTile('picture6')">
+            <span class="picture-tile" id="picture6"></span>
+        </div>
+        <div class="memory-tile" id="tile7" onclick="gameManager.turnTile('picture7')">
+            <span class="picture-tile" id="picture7"></span>
+        </div>
+        <div class="memory-tile" id="tile8" onclick="gameManager.turnTile('picture8')">
+            <span class="picture-tile" id="picture8"></span>
+        </div>
+        <div class="memory-tile" id="tile9" onclick="gameManager.turnTile('picture9')">
+            <span class="picture-tile" id="picture9"></span>
+        </div>
+        <div class="memory-tile" id="tile10" onclick="gameManager.turnTile('picture10')">
+            <span class="picture-tile" id="picture10"></span>
+        </div>
+        <div class="memory-tile" id="tile11" onclick="gameManager.turnTile('picture11')">
+            <span class="picture-tile" id="picture11"></span>
+        </div>
+        <div class="memory-tile" id="tile12" onclick="gameManager.turnTile('picture12')">
+            <span class="picture-tile" id="picture12"></span>
+        </div>
+        <div class="memory-tile" id="tile13" onclick="gameManager.turnTile('picture13')">
+            <span class="picture-tile" id="picture13"></span>
+        </div>
+        <div class="memory-tile" id="tile14" onclick="gameManager.turnTile('picture14')">
+            <span class="picture-tile" id="picture14"></span>
+        </div>
+        <div class="memory-tile" id="tile15" onclick="gameManager.turnTile('picture15')">
+            <span class="picture-tile" id="picture15"></span>
+        </div>
+        <div class="memory-tile" id="tile16" onclick="gameManager.turnTile('picture16')">
+            <span class="picture-tile" id="picture16"></span>
+        </div>
+    </div>
+
+    <div class="score-field">
+        <p>ScoreBoard</p>
+        <button type="button" onclick="gameManager.startGame()">Start new Game</button>
+    </div>
+
+</div>
+
+
+</body>
+</html>
