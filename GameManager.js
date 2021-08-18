@@ -10,7 +10,7 @@ gameManager = {
         let getAllPictures = document.querySelector( '.picture-tile' )
         getAllPictures.style.visibility = 'hidden'
 
-        let getTile1 = document.getElementById( 'tile1' )
+        let getTile1 = document.getElementById( 'picture1' )
         let getTile2 = document.getElementById( 'picture2' )
         let getTile3 = document.getElementById( 'picture3' )
         let getTile4 = document.getElementById( 'picture4' )
